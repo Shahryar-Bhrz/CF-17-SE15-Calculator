@@ -3,14 +3,17 @@
 }
 
 .hero {
-    background-color: rgb(75, 71, 71);
     max-width: 360px;
     height: auto;
     margin: auto;
     border-radius: 20px;
     padding: 134px 15px 25px;
     font-family: 'Roboto Mono', monospace;
+    background-color: rgb(75, 71, 71);
+}
 
+#gradian {
+    /* background-image:  */
 }
 
 .math-line {
@@ -110,4 +113,13 @@
     font-weight: 100;
     line-height: 42px;
     text-align: center;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.right-symbol-equal:hover {
+    background-color: green
 }

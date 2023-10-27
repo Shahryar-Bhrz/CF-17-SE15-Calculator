@@ -11,18 +11,18 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div class="hero">
+    <div class="hero" id="gradian">
         <div class="the-math">
             <h2 class="math-line">math-line</h2>
             <h1 class="result">result</h1>
         </div>
         <div class="elements">
-            <div class="left">
-                <button class="left-symbol">C</button>
+            <form class="left">
+                <button class="left-symbol" >C</button>
                 <button class="left-symbol">±</button>
                 <button class="left-symbol">%</button>
-                <button class="left-number">7</button>
-                <button class="left-number">8</button>
+                <button class="left-number" onclick="onClick()" >7</button>
+                <button class="left-number" ID="hasht">8</button>
                 <button class="left-number">9</button>
                 <button class="left-number">4</button>
                 <button class="left-number">5</button>
@@ -33,18 +33,19 @@
                 <button class="left-number">.</button>
                 <button class="left-number">0</button>
                 <button class="left-number">00</button>
-            </div>
-            <div class="right">
+            </form>
+            <form class="right">
                 <button class="right-symbol">÷</button>
                 <button class="right-symbol">×</button>
                 <button class="right-symbol">-</button>
                 <button class="right-symbol">+</button>
                 <button class="right-symbol-equal">=</button>
-            </div>
+            </form>
         </div>
        
          
     </div>
     
 </body>
+<script src="se15.js"></script>
 </html>
